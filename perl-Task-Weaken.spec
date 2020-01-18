@@ -1,6 +1,6 @@
 Name:           perl-Task-Weaken
 Version:        1.04
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Ensure that a platform has weaken support
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.04-6
+- Mass rebuild 2013-12-27
+
 * Mon Aug 20 2012 Petr Pisar <ppisar@redhat.com> - 1.04-5
 - Specify all dependencies
 
